@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+    div.lander-area {
+	width: 85%;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+div.header-menu ul li {
+	padding: 0 27px;
+}div.head-navbar {
+	position: sticky;
+	top: 15px;
+	width: 100%;
+	left: 0px;
+	padding: 60px 50px;
+	clear: both;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+    
+ 
+div.lander-area {
+  width: 98%;
+}.offcanva {
+	position: fixed;
+	left: 0;
+	height: 100vh;
+	z-index: 99999;
+	background: #fff;
+	width: 180px;
+	transition: .3s;
+	left: -100%;
+}   
+    .lander-area.active {
+	width: 98%;
+}
+    .offcanva.active {
+	left: 0;
+}
+    
+    
+    
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+div.header-menu ul li {
+	padding: 0 27px;
+}div.head-navbar {
+	position: sticky;
+	top: 15px;
+	width: 100%;
+	left: 0px;
+	padding: 60px 50px;
+	clear: both;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+    
+ 
+div.lander-area {
+  width: 98%;
+}.offcanva {
+	position: fixed;
+	left: 0;
+	height: 100vh;
+	z-index: 99999;
+	background: #fff;
+	width: 180px;
+	transition: .3s;
+	left: -100%;
+}   
+    .lander-area.active {
+	width: 98%;
+}
+    .offcanva.active {
+	left: 0;
+}
+    
+    
+div.carasol-content {
+  height: auto;
+}
+div.content-slider-text {
+  padding: 0;
+}
+div.controler-slide {
+  position: fixed;
+}
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+div.header-menu ul li {
+	padding: 0 27px;
+}div.head-navbar {
+	position: sticky;
+	top: 15px;
+	width: 100%;
+	left: 0px;
+	padding: 60px 50px;
+	clear: both;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+    
+ 
+div.lander-area {
+  width: 98%;
+}.offcanva {
+	position: fixed;
+	left: 0;
+	height: 100vh;
+	z-index: 99999;
+	background: #fff;
+	width: 180px;
+	transition: .3s;
+	left: -100%;
+}   
+    .lander-area.active {
+	width: 98%;
+}
+    .offcanva.active {
+	left: 0;
+}
+    
+    
+div.carasol-content {
+  height: auto;
+}
+div.content-slider-text {
+  padding: 0;
+}
+div.controler-slide {
+  position: fixed;
+}
+ 
+.mobile {
+  display: block;
+}
+.main-body {
+  display: none;
+}   
+    
+    
+    
+    
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
+
+

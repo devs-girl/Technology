@@ -1,0 +1,9 @@
+.bg-image {
+    background-image: linear-gradient(to right, #0AC4F8 , #606DCD) !important;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.signupbtn:hover {
+    color: aqua;
+}
